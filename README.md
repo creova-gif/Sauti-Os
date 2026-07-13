@@ -43,11 +43,13 @@ Sauti OS gives independent artists and their managers the back-office tooling th
 ### Installation
 
 ```bash
-git clone https://github.com/creova-gif/Sauti-Os.git
-cd Sauti-Os
+git clone https://github.com/creova-gif/sauti-os.git
+cd sauti-os
 pnpm install
 pnpm run build
 ```
+
+Run the app locally with `pnpm --filter @workspace/sauti-os run dev` and the API server with `pnpm --filter @workspace/api-server run dev`.
 
 ---
 
